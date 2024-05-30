@@ -1,0 +1,11 @@
+{
+	"name": "automattic/jetpack-legacy-google-analytics",
+	"description": "Jetpack's legacy Google Analytics feature.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"automattic/jetpack-google-analytics": "~0.1.0"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
