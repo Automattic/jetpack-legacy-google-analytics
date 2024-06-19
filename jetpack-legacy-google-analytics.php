@@ -29,7 +29,7 @@
 
 namespace Jetpack_Legacy_Google_Analytics;
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once  plugin_dir_path( __FILE__ ) . '/vendor/autoload_packages.php';
 
 /**
  * Load plugin files.
