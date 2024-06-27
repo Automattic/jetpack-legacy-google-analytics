@@ -29,7 +29,9 @@
 
 namespace Jetpack_Legacy_Google_Analytics;
 
-require_once  plugin_dir_path( __FILE__ ) . '/vendor/autoload_packages.php';
+use Automattic\Jetpack\Redirect;
+
+require_once plugin_dir_path( __FILE__ ) . '/vendor/autoload_packages.php';
 
 /**
  * Load plugin files.
@@ -50,3 +52,17 @@ function load_plugin() {
 	require_once plugin_dir_path( __FILE__ ) . 'src/google-analytics.php';
 }
 add_action( 'plugins_loaded', __NAMESPACE__ . '\load_plugin' );
+
+/**
+ * Add settings link.
+ *
+ * @param array $links the array of links.
+ */
+function add_settings_link( $links ) {
+	$url = Redirect::get_url( 'calypso-marketing-traffic', array( 'anchor' => 'analytics' ) );
+	$settings_link = '<a href="' . $url . '">' . esc_html__( 'Settings', 'jetpack' ) . '</a>';
+	array_unshift( $links, $settings_link );
+
+	return $links;
+}
+add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), __NAMESPACE__ . '\add_settings_link' );
