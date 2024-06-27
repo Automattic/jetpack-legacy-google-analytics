@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "0b67be2f73d7ddd8719017f0ef487ae7",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
             "version": "v2.12.0",
+            "version_normalized": "2.12.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-autoloader.git",
@@ -27,6 +22,7 @@
                 "automattic/jetpack-changelogger": "^3.3.11",
                 "yoast/phpunit-polyfills": "1.1.0"
             },
+            "time": "2023-09-28T18:33:34+00:00",
             "type": "composer-plugin",
             "extra": {
                 "autotagger": true,
@@ -42,6 +38,7 @@
                     "dev-trunk": "2.12.x-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Automattic\\Jetpack\\Autoloader\\": "src"
@@ -66,11 +63,12 @@
             "support": {
                 "source": "https://github.com/Automattic/jetpack-autoloader/tree/v2.12.0"
             },
-            "time": "2023-09-28T18:33:34+00:00"
+            "install-path": "../automattic/jetpack-autoloader"
         },
         {
             "name": "automattic/jetpack-constants",
             "version": "v2.0.3",
+            "version_normalized": "2.0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-constants.git",
@@ -93,6 +91,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
+            "time": "2024-05-29T09:44:58+00:00",
             "type": "jetpack-library",
             "extra": {
                 "autotagger": true,
@@ -104,6 +103,7 @@
                     "dev-trunk": "2.0.x-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -117,11 +117,12 @@
             "support": {
                 "source": "https://github.com/Automattic/jetpack-constants/tree/v2.0.3"
             },
-            "time": "2024-05-29T09:44:58+00:00"
+            "install-path": "../automattic/jetpack-constants"
         },
         {
             "name": "automattic/jetpack-google-analytics",
             "version": "v0.2.2",
+            "version_normalized": "0.2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-google-analytics.git",
@@ -145,6 +146,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
+            "time": "2024-07-01T00:28:25+00:00",
             "type": "jetpack-library",
             "extra": {
                 "autotagger": true,
@@ -160,6 +162,7 @@
                     "::PACKAGE_VERSION": "src/class-ga-manager.php"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -173,11 +176,12 @@
             "support": {
                 "source": "https://github.com/Automattic/jetpack-google-analytics/tree/v0.2.2"
             },
-            "time": "2024-07-01T00:28:25+00:00"
+            "install-path": "../automattic/jetpack-google-analytics"
         },
         {
             "name": "automattic/jetpack-redirect",
             "version": "v2.0.2",
+            "version_normalized": "2.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-redirect.git",
@@ -201,6 +205,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
+            "time": "2024-04-25T07:24:30+00:00",
             "type": "jetpack-library",
             "extra": {
                 "autotagger": true,
@@ -212,6 +217,7 @@
                     "dev-trunk": "2.0.x-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -225,11 +231,12 @@
             "support": {
                 "source": "https://github.com/Automattic/jetpack-redirect/tree/v2.0.2"
             },
-            "time": "2024-04-25T07:24:30+00:00"
+            "install-path": "../automattic/jetpack-redirect"
         },
         {
             "name": "automattic/jetpack-status",
             "version": "v3.3.2",
+            "version_normalized": "3.3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-status.git",
@@ -256,6 +263,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
+            "time": "2024-06-24T19:22:37+00:00",
             "type": "jetpack-library",
             "extra": {
                 "autotagger": true,
@@ -273,6 +281,7 @@
                     ]
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -286,16 +295,9 @@
             "support": {
                 "source": "https://github.com/Automattic/jetpack-status/tree/v3.3.2"
             },
-            "time": "2024-06-24T19:22:37+00:00"
+            "install-path": "../automattic/jetpack-status"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": [],
-    "prefer-stable": true,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "dev": true,
+    "dev-package-names": []
 }
