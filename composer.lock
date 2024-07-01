@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "170709edb8712e1293c97ff3a5df7fae",
+    "content-hash": "0b67be2f73d7ddd8719017f0ef487ae7",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -121,16 +121,16 @@
         },
         {
             "name": "automattic/jetpack-google-analytics",
-            "version": "v0.2.1",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-google-analytics.git",
-                "reference": "3834c75b18376a3c5f6de667a16de31cdc0e1f11"
+                "reference": "7361be2b8cc7c68617146d1af70fe068041130c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-google-analytics/zipball/3834c75b18376a3c5f6de667a16de31cdc0e1f11",
-                "reference": "3834c75b18376a3c5f6de667a16de31cdc0e1f11",
+                "url": "https://api.github.com/repos/Automattic/jetpack-google-analytics/zipball/7361be2b8cc7c68617146d1af70fe068041130c6",
+                "reference": "7361be2b8cc7c68617146d1af70fe068041130c6",
                 "shasum": ""
             },
             "require": {
@@ -171,9 +171,9 @@
             ],
             "description": "Set up Google Analytics without touching a line of code.",
             "support": {
-                "source": "https://github.com/Automattic/jetpack-google-analytics/tree/v0.2.1"
+                "source": "https://github.com/Automattic/jetpack-google-analytics/tree/v0.2.2"
             },
-            "time": "2024-06-27T12:56:13+00:00"
+            "time": "2024-07-01T00:28:25+00:00"
         },
         {
             "name": "automattic/jetpack-redirect",
